@@ -14,4 +14,8 @@ export class Person {
   set department(arg) {
     this._department = arg;
   }
+
+  get department() {
+    return this._department;
+  }
 }
